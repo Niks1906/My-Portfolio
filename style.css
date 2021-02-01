@@ -1,0 +1,25 @@
+body {
+    background: white;
+}
+
+.header {
+    background-color: #f08a5d;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.info {
+    background-color: #b83b5e;
+}
+
+.projects {
+    background-color: #f9ed69;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.game {}
