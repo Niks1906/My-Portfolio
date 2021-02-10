@@ -1,65 +1,60 @@
-body {
-  background-color: white;
-}
-
 h1 {
-  color: #264e70;
+    color: #b83b5e;
 }
 
-h3 {
-  color: #eedad1;
+*{
+    background: #f9ed69;
 }
 
-h5 {
-  color: #ffcc29;
-}
-p {
-  color: white;
+.header{
+    display: flex;
+    justify-content: space-between;
 }
 
-.heading {
-  background-color: #81f5ff;
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
 }
 
-.instruction {
-  background-color: #fffbbe;
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-.Tutorials {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.footer{
+    display: flex;
+    justify-content: flex-end;
 }
 
-.camel {
-  background-color: #bb2205;
+p,h2{
+    text-align: center;
+}
+.item {
+    border: solid;
+    border-width: 25px;
+    border-radius: 25px;
+    margin: 50px;
+    padding: 50px;
+    position: relative;
+    background: #f08a5d;
 }
 
-.chameleon {
-  background-color: #db6400;
+.item p{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    color: #6a2c70;
 }
 
-.cicada {
-  background-color: #342ead;
+.item p:hover{
+    opacity: 1;
+    transform: scale(2)
 }
 
-.panda {
-  background-color: #21209c;
-}
-
-.pigeon {
-  background-color: #af0069;
-}
-
-.teddy {
-  background-color: #16697a;
-}
-
-.support {
-  background-color: #000839;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+.item:hover{
+    transform: scale(1.25);
 }
